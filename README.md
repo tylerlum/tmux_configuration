@@ -1,6 +1,14 @@
 .tmux
 =====
 
+## Notes to Self:
+
+* Copy and paste with mouse by pressing shift: https://unix.stackexchange.com/questions/318281/how-to-copy-and-paste-with-a-mouse-with-tmux
+* `set -g mouse on` in tmux conf to start with mouse mode on
+* For some reason, can't get `bind-key \\ split-window -h  # Map | to horizontal split` to work, even though it worked on another system
+
+# Original README Below
+
 Self-contained, pretty and versatile `.tmux.conf` configuration file.
 
 ![Screenshot](https://cloud.githubusercontent.com/assets/553208/19740585/85596a5a-9bbf-11e6-8aa1-7c8d9829c008.gif)
